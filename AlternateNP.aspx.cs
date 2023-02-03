@@ -68,7 +68,7 @@ namespace AlimentacionDB_2._0
                     "AlternatePartNumber",
                     "AlternatePartNumber"
                   },
-                  {
+                  { 
                     "ECN",
                     "ECN"
                   }
