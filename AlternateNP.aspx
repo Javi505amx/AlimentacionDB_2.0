@@ -82,8 +82,12 @@
                         </EmptyDataTemplate>
                         <Columns>
                             <asp:BoundField HeaderText="WorkOrder" DataField="WorkOrder"/>
-                            <asp:BoundField HeaderText="Model" DataField="Model" />
-                            <asp:BoundField HeaderText="Quantity" DataField="Quantity"/>
+                            <asp:BoundField HeaderText="KittingNote" DataField="KittingNote" />
+                            <asp:BoundField HeaderText="Model" DataField="Model"/>
+                            <asp:BoundField HeaderText="Original" DataField="PartNumber"/>
+                            <asp:BoundField HeaderText="Alterno" DataField="AlternatePartNumber"/>
+                            <asp:BoundField HeaderText="ECN" DataField="ECN"/>
+
                         </Columns>
                     </asp:GridView>
                 </div>

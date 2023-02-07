@@ -14,7 +14,7 @@ namespace AlimentacionDB_2._0
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            BindGridView();
         }
 
         private void BindGridView()
@@ -74,7 +74,7 @@ namespace AlimentacionDB_2._0
                   }
                 }
                             }.WriteToServer((DbDataReader)oleDbCommand.ExecuteReader());
-                           // BindGridView();
+                           BindGridView();
                             connection.Close();
                             Response.Write("<script language='Javascript'>alert('Archivo importado con exito');</script>");
                             return;
